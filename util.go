@@ -22,3 +22,9 @@ func ParseHexColor(s string) (c color.RGBA, err error) {
 	}
 	return
 }
+
+func fontPrivateUseArea(r rune) bool {
+	return 0xe000 <= r && r <= 0xf8ff ||
+		0xf0000 <= r && r <= 0xffffd ||
+		0x100000 <= r && r <= 0x10fffd
+}
