@@ -1,6 +1,8 @@
 # ttftoiconbitmap
 
-TTF font to icon bitmap converter. This takes an input TTF font file such as FontAwesome or really any reasonable TTF font, and renders it into a template bitmap.
+TTF font to icon bitmap converter. It takes an input TTF font file such as FontAwesome or really any reasonable TTF font, and renders it into a template bitmap.
+
+This script basically generates bitmaps of a font from a TTF file, using a template bitmap as a background.
 
 ```
 Usage of ./ttftoiconbitmap:
